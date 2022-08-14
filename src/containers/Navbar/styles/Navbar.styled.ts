@@ -13,6 +13,7 @@ const NavbarStyled = styled.div`
     display: inline-block;
     margin: 1.2rem;
     font-weight: bold;
+    cursor: pointer;
   }
 `;
 

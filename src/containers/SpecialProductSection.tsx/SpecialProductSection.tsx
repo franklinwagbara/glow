@@ -25,16 +25,16 @@ const SpecialProductSection = (): JSX.Element => {
 
         <div className="details">
           <div className="question">
-            <Heading size={6}>Where are products made</Heading>
-            <Text size={0.7}>
+            <Heading size={5}>Where are products made</Heading>
+            <Text size={0.7} color="gray">
               Many brands especially in period care carry products that take
               centuries
             </Text>
           </div>
 
           <div className="question">
-            <Heading size={6}>Where are products made</Heading>
-            <Text size={0.7}>
+            <Heading size={5}>Where are products made</Heading>
+            <Text size={0.7} color="gray">
               Many brands especially in period care carry products that take
               centuries
             </Text>

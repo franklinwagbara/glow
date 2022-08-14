@@ -10,6 +10,7 @@ const ButtonStyled = styled.button<Props>`
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
+  max-width: fit-content;
   gap: 0.3rem;
   background-color: ${(props) =>
     props.typex === "contained" ? props.color : "transparent"};

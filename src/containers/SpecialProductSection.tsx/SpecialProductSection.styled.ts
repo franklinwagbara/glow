@@ -3,7 +3,7 @@ import styled from "styled-components";
 const SpecialProductSectionStyled = styled.section`
   position: relative;
   margin-top: -10px;
-  height: 30rem;
+  height: 35rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -18,15 +18,17 @@ const SpecialProductSectionStyled = styled.section`
     position: absolute;
     box-sizing: border-box;
     right: 0;
-    width: 60%;
+    width: 45rem;
     height: 100%;
     background-color: #f1e4ef;
-    padding: 8rem 8rem;
+    padding: 8rem 6rem;
+    padding-left: 10rem;
+    margin-right: -5rem;
 
     & .video {
       position: absolute;
       top: -3rem;
-      right: 3rem;
+      right: 8rem;
       width: 10rem;
       height: 5rem;
       overflow: hidden;
@@ -38,18 +40,18 @@ const SpecialProductSectionStyled = styled.section`
     }
 
     & .caption {
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
     }
 
     & .details {
       display: flex;
       flex-direction: row;
-      gap: 2rem;
+      gap: 3rem;
 
       & .question {
         display: flex;
         flex-direction: column;
-        gap: 0.8rem;
+        gap: 1rem;
       }
     }
   }

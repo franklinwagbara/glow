@@ -10,7 +10,7 @@ const FONT_SIZE_MAP = {
   1: "5.5rem",
   2: "4.0rem",
   3: "2.5rem",
-  4: "1.5rem",
+  4: "2.2rem",
   5: "1rem",
   6: "0.7rem",
 };

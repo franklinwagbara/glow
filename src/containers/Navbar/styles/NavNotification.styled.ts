@@ -13,6 +13,7 @@ const NavNotificationStyled = styled.div`
   font-size: 0.8rem;
   color: white;
   margin-right: 1rem;
+  cursor: pointer;
 
   & :not(style) {
     margin-right: -25%;
